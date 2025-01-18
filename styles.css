@@ -14,9 +14,8 @@ img {
     width: auto;
 }
 
-.auswahl{
-    font-size: large;
-    color: blanchedalmond;
+.top {
+    margin-top: 40px;
 }
 
 .steps {
@@ -28,7 +27,23 @@ img {
 .center {
     display: flex;
     justify-content: center;
-    
+}
+
+.auswahl{
+    font-size: large;
+    color: blanchedalmond;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+.auswahl li {
+    display: inline-block;
+    border: 2px solid blanchedalmond;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin: 8px 20px;
+    flex: 1;
 }
 
 html {
